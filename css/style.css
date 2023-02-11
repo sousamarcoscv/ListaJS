@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+}
+
+header{
+    background-color: royalblue;
+    padding: 10px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+main{
+    padding: 30px  50px;
+}
+.card{
+ background-color: blanchedalmond;
+ border: 3px solid mediumpurple;
+ border-radius: 7px;
+ margin-top: 5px;
+ padding: 3px;
+ 
+}
+
+.lineInput{
+    display: inline;
+    margin-bottom: 3px;
+}
+
+input{
+    outline: 0;
+}
+
+button{
+    border-radius: 5px;
+   
+}
+
+button:hover{
+    background-color:grey;
+    color: beige;
+}
+
+.content{
+   margin-top: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid gainsboro;
+    width: 100%;
+}
+
+table th{
+    background-color: rgb(189, 185, 185);
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}

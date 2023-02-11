@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projeto JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <h1>Minha Familia 1.0</h1>
+    </header>
+
+    <main>
+        <div class="title">
+            <h2>Controle de Pessoas</h2>
+            <span>Lista de Pessoas da Minha Familia</span>
+        </div>
+        
+        <div class="card">       
+            <div class=lineInput>
+                <label>Nome</label>
+                <input type="text" id="nome" placeholder="Digite o Nome"/>
+            </div>
+            
+            <div class=lineInput>
+                <label>Idade</label>
+                <input type="number"id="idade" placeholder="Digite a Idade"/>
+            </div>        
+            
+            <button onclick="pessoa.salvarPessoa()">Adicionar</button>
+            <button onclick="pessoa.cancelarPessoa()">Deletar</button>
+        </div>
+
+        <div class="content">
+            <table border="1px">
+                <thead>
+                    <th class="center">ID</th>
+                    <th>NOME</th>
+                    <th>IDADE</th>
+                    <th>Acões</th>
+                </thead>
+
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </main> 
+    <script src="js/script.js" defer></script>
+</body>
+</html>
